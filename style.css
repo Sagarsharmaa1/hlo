@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white; 
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#nav{
+    height: 140px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+
+}
+
+#navPT2{
+    display: flex;
+    /* background-color: blue; */
+    width: 45%;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+/* agr sidha nav i likh dete too sare i ko call hojata  */
+#nav h5{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: 14px;
+
+}
+#nav img{
+    height: 60px;
+    
+}
+#line{
+    width: 70px;
+    height: 2px;
+    background-color: red;
+}
+#content{
+    height: calc(100% - 140px);
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+#left{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 140px 100px;
+}
+#right{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 340px 140px;
+}
+#center{
+    width: 26%;
+    height: 100%;
+    /* background-color: red; */
+    padding-top:60px;
+    /* justify-content: space-between; */
+}
+#left h1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+
+     
+}
+#left h1 span{
+    color: red;
+    font-weight: 500;
+}
+#left p{
+    margin-bottom: 50px ;
+    font-size: 18px;
+    width: 70%;
+    line-height: 24px;
+}
+#left button{
+    background-color: red;
+    padding: 20px 40px;
+    border-radius: 50px ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font: 19px;
+
+}
+#left button i{
+    margin-right: 10px;
+
+}
+#center_bg{
+    /* background-color: blue; */
+    width: 100%;
+    height: 88%;
+    border-top-left-radius: 1000px ;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(https://imgs.search.brave.com/NFqoedjJw7Dkzng_wWlROX5i3D7Joi-BMQpNVPvqvrY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE4Mjgx/OTIuanBn);
+    background-size: 350%;
+    background-position: 40% 50%;
+    filter: blur(2px);
+}
+#content>img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    z-index: 99;
+    transform: translate(-50%,0) ;
+}
+#right-elems{
+    /* background-color: red; */
+    width: 400px;
+
+}
+#elem{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: blue; */
+    border-bottom: 1px solid white;
+}
+#elem h1{
+    font-size: 24px;
+    font-size: 600;
+    opacity: 0.6
+    ;
+}
+#elem i{
+    font-size: 24px;
+
+}
+#elem2 h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+#elem2 p{
+    font-size: 12px;
+    width: 80%;
+
+}
